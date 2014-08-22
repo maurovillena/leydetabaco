@@ -34,31 +34,13 @@ hr{
 }
 
 @media (min-device-width : 480px){
-  #LEY .container img{
-  display: inline-block;
-  width: 33%;
-  margin-left: 0px;
-  margin-right: auto;
-  vertical-align: top;
-}
-}
-
-@media (min-device-width : 480px){
   #LEY .container p{
-  display: inline-block;
-  padding-left: 300px;
-  margin-top: -50px;
+  text-align: left;
 }
 }
 
 @media (min-device-width : 480px){
   #LEY h4{
-  display: inline-block;
-  margin-left: 0px;
-  margin-right: auto;
-  padding-left: 30px;
-  padding-top: 90px !important;
-  max-width: 55%;
   text-align: left;
 }
 }
