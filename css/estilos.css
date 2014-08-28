@@ -22,8 +22,6 @@ hr{
   
 }
 
-
-
 .container{
 	width: 80%;
   margin: 0 auto;
@@ -35,6 +33,12 @@ hr{
 .container img{
   display: block;
   padding-bottom: 10px;
+}
+
+@media (max-device-width : 480px){
+  ul #nop{
+  display: none;
+}
 }
 
 @media (max-device-width : 480px){
@@ -50,13 +54,13 @@ hr{
 }
 }
 
-@media (max-device-width : 480px){
+@media (max-device-width : 767px){
   .reverse1{
   display: table-header-group;
 }
 }
 
-@media (max-device-width : 480px){
+@media (max-device-width : 767px){
   .reverse2{
   display: table-footer-group;
 }
@@ -125,6 +129,19 @@ hr{
 }
 }
 
+
+@media (max-device-width : 767px){
+  #LEY img{
+  margin: 0 auto;
+}
+}
+
+@media (max-device-width : 767px){
+  #OPINION img{
+  margin: 0 auto;
+}
+}
+
 @media (min-device-width : 480px){
   .row img{
   width: 100% !important;
@@ -141,6 +158,10 @@ hr{
   #PROYECTO h4{
   padding-bottom: 30px;
 }
+}
+
+#PROYECTO h4{
+  text-align: center;
 }
 
 .jumbotron{
