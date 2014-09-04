@@ -182,7 +182,7 @@ hr{
 .jumbotron .container{
   width: 100%;
 }
-.jumbotron .h1{
+.jumbotron h1{
 	color: #FFF;
   text-align: center;
 }
@@ -487,6 +487,7 @@ footer a:hover{
   .jumbotron h1{
     font-size: 48px;
     font-weight: 400;
+
   }
   }
 
